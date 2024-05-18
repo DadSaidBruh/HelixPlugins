@@ -11,7 +11,7 @@ local junkItems = {
 	-- List of names of "trash" items that you want the command to remove.
 } 
 
-ix.command.Add("ClearJunk", {
+ix.command.Add("RemoveTrash", {
     description = "Removes trash from the world.",
     adminOnly = true,
     OnRun = function(self, client)
@@ -36,7 +36,7 @@ ix.command.Add("ClearJunk", {
 })
 
 if SERVER then
-    concommand.Add("ix_clearjunk", function(client)
+    concommand.Add("ix_removetrash", function(client)
         if client:IsAdmin() then
             ix.command.Run(client, "ClearJunk")
         else
