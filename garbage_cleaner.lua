@@ -34,3 +34,13 @@ ix.command.Add("ClearJunk", {
         end
     end
 })
+
+if SERVER then
+    concommand.Add("ix_clearjunk", function(client)
+        if client:IsAdmin() then
+            ix.command.Run(client, "ClearJunk")
+        else
+            client:ChatPrint("You do not have permission to use this command.")
+        end
+    end)
+end
