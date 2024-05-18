@@ -10,7 +10,7 @@ if SERVER then
     PLUGIN.qtePlayers = {}
     PLUGIN.qteSequence = { IN_RELOAD } -- The button that the player must press. Default - R
     PLUGIN.qteDuration = 5 -- How many seconds does a player have to press a button. Default - 5
-    PLUGIN.allowedFaction = "Гражданские" -- The name of the faction for which this system works. Default - Metropolice Force 
+    PLUGIN.allowedFaction = "Metropolice Force" -- The name of the faction for which this system works. Default - Metropolice Force 
 
     function PLUGIN:StartQTE(player)
         if ix.faction.Get(player:Team()).name ~= self.allowedFaction then return end
