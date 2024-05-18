@@ -13,3 +13,4 @@ https://i.imgur.com/pIc6tu3.png
 
 ## Garbage cleaner
 The plugin adds the /ClearJunk command which removes from the floor all items whose names are listed in the "trash" list.
+Can be called via the console by entering ix_clearjunk
