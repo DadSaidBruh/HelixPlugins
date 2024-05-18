@@ -1,5 +1,6 @@
 # HelixPlugins
-A bunch of simple plugins for Helix created by me
+A bunch of simple plugins for Helix created by me.
+The plugins were originally created for my server "CompleteRP".
 
 ## QTE Survival
 When a player's health drops to 0, they can quickly press the button to save them from death once.
