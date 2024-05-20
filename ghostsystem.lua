@@ -30,6 +30,7 @@ if SERVER then
                         client:SetRenderMode(RENDERMODE_TRANSALPHA)
                         client:SetColor(Color(255, 255, 255, 0))
                         client:SetNoDraw(true)
+                        client:SetNoTarget(true)
 
                         -- Takes all SWEPs
                         client:StripWeapons()
@@ -55,6 +56,7 @@ if SERVER then
                                 client:Spawn()
                                 client:SetColor(Color(255, 255, 255, 255))
                                 client:SetNoDraw(false)
+                                client:SetNoTarget(false)
 
                                 -- Makes the player mortal
                                 client:GodDisable()
