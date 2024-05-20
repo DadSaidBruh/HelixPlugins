@@ -17,4 +17,4 @@ Can be called via the console by entering ix_removetrash
 
 ## Ghost System
 The plugin turns the player into a ghost for some time after death. The ghost has black-and-white vision, is ignored by NPCs, and is immortal, but cannot use weapons or equipment.
-![Screenshot of Ghost System]([https://i.imgur.com/pIc6tu3.png](https://i.imgur.com/xAZthQO.jpeg) "Ghost System")
+![Screenshot of Ghost System](https://i.imgur.com/xAZthQO.jpeg "Ghost System")
