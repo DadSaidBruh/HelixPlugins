@@ -9,7 +9,7 @@ When your health drops to zero, a shaking text appears on the screen (the text i
 
 ## ChatPlus
 A very simple plugin that adds global rp chat (/grp) and advertising chat (/adverts).
-https://i.imgur.com/pIc6tu3.png
+![Screenshot of ChatPlus](https://i.imgur.com/pIc6tu3.png "ChatPlus")
 
 ## Garbage cleaner
 The plugin adds the /RemoveTrash command which removes from the floor all items whose names are listed in the "trash" list.
