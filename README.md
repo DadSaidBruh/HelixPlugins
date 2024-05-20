@@ -4,8 +4,10 @@ The plugins were originally created for my server "CompleteRP".
 
 ## QTE Survival
 When a player's health drops to 0, they can quickly press the button to save them from death once.
-When your health drops to zero, a shaking text appears on the screen (the text itself is easily customizable).
-https://i.imgur.com/9Mqh2e0.jpeg
+When your health drops to zero, a shaking text appears on the screen (the text itself is easily customizable)
+<p align="center">
+  <img width="550" height="256" src="(https://i.imgur.com/9Mqh2e0.jpeg)">
+</p>
 
 ## ChatPlus
 A very simple plugin that adds global rp chat (/grp) and advertising chat (/adverts).
